@@ -1,0 +1,16 @@
+<section data-product-block-widget class="product-block">
+    {% set widget = data.widget %}
+    <div class="product-block__image">
+        {% area data.widget, 'topImage' %}
+    </div>
+    <div class="product-block__text">
+        <h2>{{ widget.productTitle }}</h2>
+        <p>{{ widget.productDescription }}</p>
+    </div>
+    <div class="product-block__price">
+        {{ widget.productPrice }}
+    </div>
+    <div class="product-block__button">
+        <button>{{ widget.productButton }}</button>
+    </div>
+</section>

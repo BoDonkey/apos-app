@@ -1,0 +1,34 @@
+.product-block {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.543);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.product-block__image {
+    width: 100%;
+}
+
+.product-block__price {
+    color: grey;
+    font-size: 22px;
+}
+
+.product-block__button {
+  border: none;
+  outline: 0;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.product-block__button button {
+    
+}
+
+.product-block__button:hover {
+    opacity: 0.7;
+}
